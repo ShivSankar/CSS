@@ -1,12 +1,16 @@
-body {
-  background-color: white;
-}
-
-body {
-  color: black;
-}
-
 #MainImage {
   height: 500px;
   width: fit-content;
+}
+
+.title {
+  color: red;
+}
+
+.subtitle {
+  color: blue;
+}
+
+#contact-us {
+  color: green;
 }

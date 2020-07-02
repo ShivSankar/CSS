@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My website</title>
+    <title class="title">My website</title>
     <link rel="stylesheet" href="/main.css" />
   </head>
   <body>
-    <h1>My website</h1>
+    <h1 class="title">My website</h1>
 
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
       quisquam, ratione unde eaque natus cum.
     </p>
-    <h2>About me</h2>
+    <h2 class="subtitle">About me</h2>
     <img id="MainImage" src="/images/high-temp.jpg" alt="Sample Image" />
 
     <p>
@@ -48,10 +48,13 @@
     </table>
     <img id="MainImage" src="/images/medium-temp.jpg" alt="" />
 
-    <h2>Contact US</h2>
-    <input type="text" value="Full name" />
-    <input type="email" name="" id="" value="email" />
-    <textarea name="" id="" cols="30" rows="2"></textarea>
-    <button type="submit">Submit</button>
+    <h2 id="contact-us">Contact US</h2>
+
+    <form action="submit">
+      <input type="text" placeholder="Full name" />
+      <input type="email" name="" id="" placeholder="email" />
+      <textarea name="" id="" cols="30" rows="2"></textarea>
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
