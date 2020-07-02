@@ -1,2 +1,3 @@
 # CSS
-Just a CSS recap
+
+Just a CSS recap.
